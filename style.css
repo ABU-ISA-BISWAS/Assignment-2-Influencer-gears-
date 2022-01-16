@@ -1,8 +1,6 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Playfair+Display:wght@600&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
 /* header style */
-
-
 
 nav ul{
     display: flex;
@@ -36,11 +34,9 @@ nav ul li p{
 }
 .container{
     display: flex;
+   
 }
-.start-journy{
-    width: 582px;
-    height: 270px;
-}
+
 .start-journy h1{
     font-weight: bold;
     font-size: 52px;
@@ -48,10 +44,14 @@ nav ul li p{
 .start-journy p{
     font-weight: 600;
     font-size: 16px;
+    margin-bottom: 30px;
 }
 .start-journy{
     width: 500px;
-    margin-left: 50px;
+    height: 270px;
+    margin-left: 80px;
+   
+    
 }
 .main-camera img{
     width: 440px;
@@ -62,16 +62,20 @@ nav ul li p{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: bold.;
+    font-weight: bold;
+   
+    
     
 }
 .button{
     background-color:  #E02C6D;
     border-radius: 15px;
     padding: 8px;
+    margin-left: 0;
 }
 .button  .right-arrow{
     margin-left: 5px;
+    color: #FFFFFF;
 }
 .logos{
     display: flex;
@@ -83,6 +87,11 @@ nav ul li p{
 }
 .logo{
     margin-right: 60px;
+}
+.Popular-Collection h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 .items{
     display: grid;
@@ -99,11 +108,12 @@ nav ul li p{
     width: 329px;
     height: 476px;
     padding: 17px;
-    background-color: rgb(235, 238, 241);
+    background-color: rgb(232, 236, 241);
 }
 .item h1{
     font-size: 28px;
     font-weight: 500px;
+    margin-bottom: 0;
 }
 .item h2{
     font-size: 24px;
@@ -128,4 +138,71 @@ span{
     margin-left: 15px;
     font-size:  16px;
     color: #787885;
+}
+.see-more a{
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 20px;
+    font-weight: 700;
+}
+   
+    
+.see-more  .right-arrow{
+    margin-left: 5px;
+    color: #E02C6D;
+}
+.see-more{
+    
+    text-align: right;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.contact{
+    background-color: rgb(229, 230, 218);
+    height: 400px;
+}
+
+.contact-us-img img{
+    width: 440px;
+    height: 280px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+
+.contact-us-detail h1{
+    font-weight:800;
+    font-size: 40px;
+    color: rgb(69, 69, 245);
+}
+.contact-us-detail p{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.contact-us-detail{
+    width: 500px;
+    height: 270px;
+    margin-left: 80px;
+   
+    
+}
+.footer{
+    text-align: center;
+    color: white;
+    background-color:#0A0826;
+    height: 210px;
+    padding-top: 10px;
+}
+.footer ul{
+    display: flex;
+    margin-left: 550px;
+}
+.footer ul li{
+    list-style: none;
+   font-size: 18px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #23213a;
 }
